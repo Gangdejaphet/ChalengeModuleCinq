@@ -38,9 +38,9 @@ public class LoginActivityTest {
         assertNotNull(loginActivity.findViewById(R.id.tv_password));
         assertNotNull(loginActivity.findViewById(R.id.btn_login));
 
-        onView(withId(R.id.tv_email)).perform(typeText("ganga@gmail.com")).toString();
+        onView(withId(R.id.tv_email)).perform(typeText("ghost@gmail.com")).toString();
 
-        onView(withId(R.id.tv_password)).perform(typeText("ghost123"));
+        onView(withId(R.id.tv_password)).perform(typeText("gho"));
 
         onView(withId(R.id.btn_login)).perform(click());
 
