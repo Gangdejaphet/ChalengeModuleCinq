@@ -40,7 +40,7 @@ public class LoginActivityTest {
 
         onView(withId(R.id.tv_email)).perform(typeText("ghost@gmail.com")).toString();
 
-        onView(withId(R.id.tv_password)).perform(typeText("ghost123"));
+        onView(withId(R.id.tv_password)).perform(typeText("ghost1234"));
 
         onView(withId(R.id.btn_login)).perform(click());
 
